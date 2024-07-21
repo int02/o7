@@ -1,5 +1,5 @@
 # o7
-Traditional linux rust malware
+Traditional linux rust ransomware
 
 Dont make your vm too obvious as it will shred itself, same with debuggers
 
